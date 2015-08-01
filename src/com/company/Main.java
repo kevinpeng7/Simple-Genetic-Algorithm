@@ -119,9 +119,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        double test = 5;
-        System.out.println((test/=0));
-
         Scanner in = new Scanner(System.in);
         System.out.println("Input a value.");
         double goal = in.nextDouble();
